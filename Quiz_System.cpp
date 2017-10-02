@@ -180,7 +180,7 @@ int main(){
 	int choice;
 	int num_ques = 11;
 	Question questions[num_ques];
-	read_questions("files/questions.csv", questions);
+	read_questions("Questions.numbers", questions);
 	while(1){
 		system("cls");
 		cout<<"\n\n\t\tMenu\n";
